@@ -5,6 +5,7 @@
 Aplicación de escritorio en Java con interfaz gráfica Swing, arquitectura en cuatro capas y persistencia en ficheros. Integra dos juegos completos — **Pasapalabra** y **Tres en Raya** — con un sistema de usuarios, roles, estadísticas y partidas pausables.
 
 > Documentación web: https://jp-aceves.github.io/MiniJuegos-Proyecto-POO/
+
 > Presentación: https://jp-aceves.github.io/MiniJuegos-Proyecto-POO/Presentacion.html
 
 ---
