@@ -44,7 +44,7 @@ public class GestorEstadisticas {
         for (Usuario u : partida.getListaJugadores()) {
             String username = u.getUsername();
             String nombreJuego = partida.getJuego().getNombre();
-            int puntuacion = partida.getJuego().getPuntuacion(username);
+            int puntuacion = partida.getPuntuacion(u);
             boolean victoria;
                 if (partida.getJuego() instanceof Modelo.Pasapalabra) {
                     Modelo.Pasapalabra pp = (Modelo.Pasapalabra) partida.getJuego();
