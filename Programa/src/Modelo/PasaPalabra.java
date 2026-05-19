@@ -16,7 +16,7 @@ import java.util.Scanner;
  * @author Adrián
  * @version 2.1
  */
-public class PasaPalabra extends Juego {
+public class Pasapalabra extends Juego {
 
     // ── Constantes de estado de cada letra ──────────────────────────────────
     public static final String ESTADO_PENDIENTE   = "0";
@@ -43,12 +43,12 @@ public class PasaPalabra extends Juego {
 
     // ── Constructores ────────────────────────────────────────────────────────
 
-    public PasaPalabra(int nivel) {
-        super("PasaPalabra", "Adivina las palabras del rosco letra a letra", false);
+    public Pasapalabra(int nivel) {
+        super("Pasapalabra", "Adivina las palabras del rosco letra a letra", false);
         this.nivel = nivel;
     }
 
-    public PasaPalabra() {
+    public Pasapalabra() {
         this(1);
     }
 
@@ -213,7 +213,7 @@ public class PasaPalabra extends Juego {
 
         // 2. Relativo al directorio del .class (funciona desde IDE cuyo output es out/)
         try {
-            URL url = PasaPalabra.class.getProtectionDomain().getCodeSource().getLocation();
+            URL url = Pasapalabra.class.getProtectionDomain().getCodeSource().getLocation();
             File classRoot = new File(url.toURI());
             f = new File(classRoot.getParentFile(), DIR_ROSCOS + nombreFichero);
             if (f.exists()) return f;
