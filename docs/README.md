@@ -8,7 +8,7 @@ Aplicación de escritorio en Java con interfaz gráfica Swing, arquitectura en c
 
 > Documentación JavaDoc: https://jp-aceves.github.io/Minijuegos-Proyecto-POO/JavaDoc/
 
-> Presentación: https://jp-aceves.github.io/Minijuegos-Proyecto-POO/Presentacion.html
+> Landing Page: https://jp-aceves.github.io/Minijuegos-Proyecto-POO/Presentacion.html
 
 ---
 
